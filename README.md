@@ -1,6 +1,7 @@
 # Coca Cola Tracker
 
-This a web app that allows you to A web app to track stock of of the Christmas-themed rewards on http://novogodisnjapromocija.coca-cola.rs.
+This a web app that allows you to track the remaining stock of of the 
+Christmas-themed rewards on http://novogodisnjapromocija.coca-cola.rs.
 
 ## Requirements
 
