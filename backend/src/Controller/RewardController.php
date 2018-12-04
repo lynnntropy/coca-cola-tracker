@@ -37,7 +37,9 @@ class RewardController extends AbstractController
     }
 
     /**
-     * @Route("/rewards", name="rewards")
+     * Lists all rewards.
+     *
+     * @Route("/rewards", name="rewards", methods={"GET"})
      */
     public function index()
     {
@@ -48,7 +50,9 @@ class RewardController extends AbstractController
     }
 
     /**
-     * @Route("/rewards/{id}/snapshots", name="snapshots")
+     * Lists all snapshots for a given reward.
+     *
+     * @Route("/rewards/{id}/snapshots", name="snapshots", methods={"GET"})
      * @param Reward $reward
      * @return JsonResponse
      */

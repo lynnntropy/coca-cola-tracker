@@ -15,6 +15,12 @@ use App\Repository\RewardRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use GuzzleHttp\Client;
 
+/**
+ * This service is responsible for using the (public) Coca-Cola API
+ * endpoint to update the database with the latest prize data.
+ *
+ * @package App\Service
+ */
 class SnapshotService
 {
     private const COCA_COLA_API_ENDPOINT = 'https://api.tastly.net/v3/campaigns/133971?final=true';
@@ -43,7 +49,9 @@ class SnapshotService
         $this->rewardRepository = $rewardRepository;
     }
 
-
+    /**
+     * The method that actually takes the snapshot (pulls new data from the API).
+     */
     public function takeSnapshot()
     {
         $client = new Client();

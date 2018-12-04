@@ -8,6 +8,8 @@ use Doctrine\ORM\Mapping as ORM;
 use JMS\Serializer\Annotation as Serializer;
 
 /**
+ * Represents a single reward available for the contest.
+ *
  * @ORM\Entity(repositoryClass="App\Repository\RewardRepository")
  * @Serializer\ExclusionPolicy("ALL")
  */

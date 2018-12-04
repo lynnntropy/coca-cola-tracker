@@ -21,6 +21,7 @@ class TakeSnapshotCommand extends Command
 
     /**
      * TakeSnapshotCommand constructor.
+     * @param SnapshotService $snapshotService
      */
     public function __construct(SnapshotService $snapshotService)
     {

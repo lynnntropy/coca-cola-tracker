@@ -6,6 +6,8 @@ use Doctrine\ORM\Mapping as ORM;
 use JMS\Serializer\Annotation as Serializer;
 
 /**
+ * Represents a snapshot of a given reward's quantity at a specific point in time.
+ *
  * @ORM\Entity(repositoryClass="App\Repository\QuantitySnapshotRepository")
  * @Serializer\ExclusionPolicy("ALL")
  */
