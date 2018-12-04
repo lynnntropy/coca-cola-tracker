@@ -54,14 +54,9 @@ class RewardController extends AbstractController
      */
     public function shapshots(Reward $reward)
     {
-//        dump($reward);
-//        die();
-
         $snapshots = $reward->getQuantitySnapshots();
 
         $json = $this->serializer->serialize($snapshots, 'json');
         return new JsonResponse($json, Response::HTTP_OK, [], true);
-
-//        return new Response();
     }
 }
