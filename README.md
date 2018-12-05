@@ -32,6 +32,9 @@ php bin/console server:run
 ### Frontend
 
 ```bash
+# cd into the frontend project
+cd frontend/
+
 # install dependencies
 yarn 
 
