@@ -26,6 +26,8 @@
         this.rewards = data
         console.log(data)
       })
+
+      this.$ga.page('/')
     }
   }
 </script>
