@@ -47,7 +47,7 @@ yarn build
 ### Backend
 
 - PHP
-- Symfony (PHP web framework)
+- Symfony
 
 ### Frontend
 
